@@ -1,0 +1,91 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML/CSS</title>
+</head>
+<body>
+        <p>HTML文書の中身を大きく分けるとhead要素とbody要素に分かれます。<br>
+        それぞれheadタグとbodyタグで囲います。
+        </p>
+        <p>head要素内には文書に関する「メタ情報」を記述し、body要素には「コンテンツ」を記述します。<br>
+        メタ情報（head）には閲覧者に表示されない設定やページ情報などを記述し、
+        コンテンツ（body）には閲覧者に見てもらうためのWebページの文書を記述します。
+        </p>
+        <p>headタグ内に記述するメタ情報には、ページタイトル、外部スタイルシートの場所、ページの概要、などが含まれます。<br>
+        ブラウザで表示した際にこれらの内容は表示されません。
+        </p>
+        
+        <img src="http://static.techacademy.jp/magazine/wp-content/themes/ta-magazine/images/logo-magazine.png" 
+             alt="techacademy magazineのロゴ">
+             
+         <a href="https://techacademy.jp/">TechAcademy[テックアカデミー]| オンラインブートキャンプ</a>
+        　<a href="https://techacademy.jp/magazine/">
+            <img src="http://static.techacademy.jp/magazine/wp-content/themes/ta-magazine/images/logo-magazine.png" 
+            alt="techacademy magazineのロゴ"></a>
+            
+            <ul>
+                <li>らーめん</li>
+                <li>ラーメン</li>
+                <li>拉麺</li>
+            </ul>
+            
+            <ol>
+                <li>らーめん</li>
+                <li>ラーメン</li>
+                <li>拉麺</li>
+            </ol>
+            
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>名前</th>
+                        <th>メールアドレス</th>
+                        <th>電話番号</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>あんな</td>
+                        <td>anna</td>
+                        <td>090</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>れいな</td>
+                        <td>reina</td>
+                        <td>080</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>あゆな</td>
+                        <td>ayuna</td>
+                        <td>070</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <form>
+                <label for="name">名前</label>
+                <input type="text" id="name">
+                <br>
+                
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email">
+                <br>
+                
+                <label for="password">パスワード</label>
+                <input type="password" id="password">
+                <br>
+                
+                <label for="confilm">確認パスワード</label>
+                <input type="password" id="confilm">
+                <br>
+                
+                <input type="submit" value="登録する">
+            </form>
+
+</body>
+</html>
